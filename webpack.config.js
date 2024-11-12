@@ -21,6 +21,13 @@ module.exports = {
     ],
   },
   devServer: {
+    proxy: {
+      '/puzzle': {
+        target: 'https://puzzle.mead.io',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
     static: {
       directory: path.resolve(__dirname, 'public'),
     },
