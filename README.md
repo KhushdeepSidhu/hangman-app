@@ -9,13 +9,11 @@ A fun and interactive Hangman game built with JavaScript, where players can try 
 - **Lives Counter**: Keeps track of incorrect guesses, with a limited number of attempts to solve the puzzle.
 - **Victory and Loss Display**: Notifies players when they win or lose a game.
 - **Responsive Interface**: User-friendly and responsive UI for a seamless gaming experience.
-- **Persistence**: Tracks player progress within the session, so players can focus on completing puzzles without interruptions.
 
 ## Technologies Used
 
 - **JavaScript**: Core logic for puzzle generation, guessing functionality, and game rules.
 - **HTML/CSS**: Structure and styling of the game interface.
-- **Local Storage**: (If applicable) Used to persist game state or track player progress.
 
 ## Getting Started
 
